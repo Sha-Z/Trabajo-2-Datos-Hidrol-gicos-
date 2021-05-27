@@ -21,5 +21,9 @@ lines(inp[ ,3], col="blue")
 # Histograma 
 ### En este gráfico se presenta una distribución de la frecuencia con respecto a las crecidas en el caudal del río estrella y río banano
 summary(inp[ ,2:3])
-hist(inp[ ,2], col = "green", main = 'Histograma Río Estrella', xlab = 'caudal río Estrella')
+
+hist(inp[ ,2], col = "green", main = 'Histograma Río Estrella', xlab = 'caudal río Estrella')  
+_ En este primer histograma se puede observa que  el río Estrella presenta  con mayor frecuencia casos en donde hay un caudal mucho más bajo y en menor cantidad se presentan momentos de caudal alto, es decir se presenta con muy poca frecuencia.   
 hist(inp[ ,3], col = "purple", main = 'Histograma Río Banano', xlab = 'Caudal río Banano')
+
+
