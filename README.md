@@ -6,7 +6,7 @@ inp <- read.csv("FDC.csv" , na.strings = "")
 head(inp)
 dim(inp)
 
-#Volumen de agua por series de tiempo entre el río Estrella y río Banano 
+#Volumen de agua por series de tiempo entre el río Estrella y río Banano  
 
 ### En este caso se realiza una comparación entre los ríos estrella y banano, con el fin de determinar el volumen de agua que posee cada uno, a lo largo de cierto periodo.
 
